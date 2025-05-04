@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>My Crush ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel='stylesheet'
+    href='https://fonts.googleapis.com/css2?family=Short+Stack&amp;family=Homemade+Apple&amp;display=swap'>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="paper heart"></div>
+
+  <!-- Other paper elements... -->
+
+  <!-- Kertas 10 -->
+  <div class="paper image">
+    <p class="p1">No matter your answer,<br>
+      I just needed you to know how I truly feel.<br>
+      You’re someone special to me.</p>
+        <img src="images/you.jpeg" />
+  </div>
+
+  <!-- Kertas 9 -->
+  <div class="paper">
+    <p class="p1">I want to be more than just someone in your life…<br>
+      I want to be the one who's lucky enough to call you my girlfriend. ❤️</p>
+  </div>
+
+  <!-- Kertas 8 -->
+  <div class="paper">
+    <p class="p1">I like you.<br>
+      Not just as a friend.<br>
+      Not just casually.<br>
+      But genuinely… and deeply.</p>
+  </div>
+
+  <!-- Kertas 7 -->
+  <div class="paper">
+    <p class="p1">But more than anything,<br>
+      I don’t want my silence to make you feel uncertain.<br>
+      Because my feelings for you are real.</p>
+  </div>
+
+  <!-- Kertas 6 -->
+  <div class="paper">
+    <p class="p1">The truth is,<br>
+      I didn’t want to confess empty-handed —<br>
+      I wanted to make it a little special, for someone who means so much to me.</p>
+  </div>
+
+  <!-- Kertas 5 -->
+  <div class="paper">
+    <p class="p1">Worry that if I wait any longer,<br>
+      you might think I’m not serious about us...<br>
+      Or that I’m just dragging things on without direction.</p>
+  </div>
+
+  <!-- Kertas 4 -->
+  <div class="paper">
+    <p class="p1">But the gift hasn’t arrived yet…<br>
+      And I started to worry.</p>
+  </div>
+
+  <!-- Kertas 3 -->
+  <div class="paper">
+    <p class="p1">At first, I planned to say this to you in person,<br>
+      with a small gift I had specially picked for you.</p>
+  </div>
+
+  <!-- Kertas 2 -->
+  <div class="paper">
+    <p class="p1">Hey, there's something I've been meaning to tell you...</p>
+  </div>
+
+  <!-- Kertas 1: Instruksi drag -->
+  <div class="paper">
+    <p class="p1">Hey... drag these papers to move them ✨<br>
+      I made something for you — just scroll through each one, okay? 😊</p>
+  </div>
+
+
+  <script>
+    // Check if the device is a mobile device
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+    // Dynamically load the appropriate script based on the device type
+    const script = document.createElement('script');
+    script.src = isMobile ? './mobile.js' : './script.js';
+    document.body.appendChild(script);
+  </script>
+</body>
+
+</html>
