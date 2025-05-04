@@ -41,7 +41,12 @@ body {
   .paper {
     max-width: 80%;
     padding: 10px 30px;
-    min-height: 300px;
+    min-height: 130px;
+   display: flex;
+  flex-direction: column; /* arah konten ke bawah */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   }
 
   .paper.image p {
